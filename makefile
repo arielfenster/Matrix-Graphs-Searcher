@@ -1,0 +1,2 @@
+run:
+	g++ *.cpp *.h Algorithms/*.cpp Algorithms/*.h CacheManager/*.cpp CacheManager/*.h ClientHandler/*.cpp ClientHandler/*.h Communication/*.cpp Communication/*.h Solvable/*.cpp Solvable/*.h Utils/*.cpp Utils/*.h -std=c++14 -pthread
