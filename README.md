@@ -44,4 +44,5 @@ end
 ```
 The starting position is the top left corner and the finish position if the bottom right corner.
 The shortest path is going straight down all the way and then right all the way, so the solution will be displayed as:
+
 @@@ ADD A PICTURE OF THE EXAMPLE
