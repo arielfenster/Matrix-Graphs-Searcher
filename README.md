@@ -21,7 +21,8 @@ end
 ```
 where each letter represents a number. This number indicates the weight of the cell in the matrix - how much it costs to move to that position in the graph. The length of a path is the sum of the weights in the path and not necessarily the amount of steps it took. <br/>
 Note: negative weights are ignored as they are treated as 'walls' the algorithm cannot pass, meaning it will search for a path around it.
-Also, make sure your entry/exit position is in range of the matrix and isn't exceeding its size.
+Also, make sure your entry/exit position is within the matrix and isn't exceeding its size.
+
 **The matrices don't have to be squares, but all the rows need to be the same size!**
 
 You can also change the starting position using the 'entry_row/col' numbers, and finish position using the 'exit_row/col' numbers.
