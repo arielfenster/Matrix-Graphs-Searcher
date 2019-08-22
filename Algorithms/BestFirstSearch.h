@@ -47,7 +47,7 @@ vector<State<T> *> BestFirstSearch<T>::search(Searchable<T> *searchable) {
         vector<State<T> *> successors = searchable->getAllPossibleStates(curr);
         for (State<T> *succ : successors) {
             // Ignoring walls
-            if (succ->getCost() == -1) {
+            if (succ->getCost() < 0) {
                 continue;
             }
             if (closed.find(succ) != closed.end()) {
