@@ -47,7 +47,7 @@ vector<State<T> *> BFS<T>::search(Searchable<T> *searchable) {
         //check if we visited adjacent nodes
         for (auto iter: adjacentNodes) {
             State<T> *n = iter;
-            if (node->getCost() == -1) {
+            if (node->getCost() < 0) {
                 continue;
             }
             if (!n->isVisited()) {
