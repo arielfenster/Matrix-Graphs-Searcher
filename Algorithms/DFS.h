@@ -56,7 +56,7 @@ vector<State<T> *> DFS<T>::search(Searchable<T> *searchable) {
         for (auto iter:adjacentStates) {
 
             State<T> *temp = iter;
-            if (temp->getCost() == -1) {
+            if (temp->getCost() < 0) {
                 continue;
             }
             if (!temp->isVisited()) {
