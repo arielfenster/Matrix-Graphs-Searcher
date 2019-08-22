@@ -22,7 +22,7 @@ end
 where each letter represents a number. This number indicates the weight of the cell in the matrix - how much it costs to move to that position in the graph. The length of a path is the sum of the weights in the path. <br/>
 Note: negative weights aren't allowed and are treated as 'walls' the algorithm cannot pass, meaning it will search for a path around it.
 
-<b> The matrices don't have to be square, but all the rows need to be the same size! <b/>
+<b> The matrices don't have to be square, but all the rows need to be the same size! <b />
 
 You can also change the starting position using the 'entry_row/col' numbers, and finish position using the 'exit_row/col' numbers.
 You can set these values to your liking or needs. The first row and column are numbered '0'.
