@@ -19,7 +19,7 @@ entry_row, entry_col
 exit_row, exit_col
 end
 ```
-where each letter represents a number. This number indicates the weight of the cell in the matrix - how much it costs to move to that position in the graph. The length of a path is the sum of the weights in the path. <br/>
+where each letter represents a number. This number indicates the weight of the cell in the matrix - how much it costs to move to that position in the graph. The length of a path is the sum of the weights in the path and not necessarily the amount of steps it took. <br/>
 Note: negative weights are ignored as they are treated as 'walls' the algorithm cannot pass, meaning it will search for a path around it.
 
 **The matrices don't have to be square, but all the rows need to be the same size!**
